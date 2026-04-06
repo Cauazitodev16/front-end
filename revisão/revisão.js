@@ -1,0 +1,19 @@
+function revisão() {
+    let nome = "Cauã"
+    console.log(nome);
+    if (true){
+        let sobrenome = "Rubis";
+    }
+    //console.log(sobrenome);
+    const idade = 17;
+    console.log(idade);
+
+    const precoOriginal = 100;
+    const desconto = 20;
+    let precoFinal = precoOriginal - desconto;
+    console.log("Preço Original: " + precoOriginal);
+    console.log("Desconto: " + desconto);
+    console.log("Preço Final: " + precoFinal);
+
+}
+revisão();
